@@ -22,7 +22,8 @@ The agent is designed to run in a protected loop where every decision is logged 
 The GitHub connection and repository naming transition is tracked as `kretsshop`.
 
 Documented solution components from the Kretsshop migration milestone:
+- Scope note: the items below are milestone artifacts from the connected Kretsshop/Lovable implementation and are not paths in this repository.
 - `client_hubs`: client hub template baseline.
-- `/agent0-logg`: decision log with chain verification.
+- `/agent0-log` (also referred to as `/agent0-logg` in migration notes): decision log with chain verification.
 - Agent 0 publishing integration in `dpp-publish` and `coordinator-publish`.
 - Late validation flow in `_shared/dpp-validation.ts`.
