@@ -21,7 +21,7 @@ The agent is designed to run in a protected loop where every decision is logged 
 ## Kretsshop transition notes
 The GitHub connection and repository naming transition is tracked as `kretsshop`.
 
-Documented solution components from today's build:
+Documented solution components from the Kretsshop migration milestone:
 - `client_hubs`: client hub template baseline.
 - `/agent0-logg`: decision log with chain verification.
 - Agent 0 publishing integration in `dpp-publish` and `coordinator-publish`.
