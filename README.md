@@ -1,4 +1,4 @@
-﻿# Nexus Sentinel Zero 🛡️🤖
+﻿# Kretsshop (Nexus Sentinel Zero) 🛡️🤖
 An autonomous AI Bounty Warden built for the [POIDH](https://poidh.xyz) ecosystem.
 
 ## Core Features
@@ -17,3 +17,12 @@ Built using the **Nexus-OS Framework**, utilizing PowerShell for system orchestr
 
 ## Enforcement of Autonomy
 The agent is designed to run in a protected loop where every decision is logged via SHA-256 hashes to ensure no manual intervention has occurred after deployment.
+
+## Kretsshop transition notes
+The GitHub connection and repository naming transition is tracked as `kretsshop`.
+
+Documented solution components from today's build:
+- `client_hubs`: client hub template baseline.
+- `/agent0-logg`: decision log with chain verification.
+- Agent 0 publishing integration in `dpp-publish` and `coordinator-publish`.
+- Late validation flow in `_shared/dpp-validation.ts`.
